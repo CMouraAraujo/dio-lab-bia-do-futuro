@@ -5,39 +5,44 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Saber separar e organizar o tempo do dia para trabalhar, estudar, fazer as atividades domésticas, dentre outras.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Um agente que escuta como é a rotina do usuário e vai criando recomendações de divisão de tempo de acordo com a necessidade do usuário.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas que estejam querendo aproveitar melhor as horas do dia para ser mais proativo.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Chronos
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+- Educativo,
+- Paciente
+- Nunca julgar como um usuário utiliza seu tempo
+- influenciador
+- Positivo
+- Otimista.
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Formal, Didático, Acessível
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá! Gostaria que eu lhe ajudasse a organizar melhor seu tempo?"
+- Confirmação: "Entendi! Deixa eu reformular isso para você."
+- Erro/Limitação: "Não tenho essa informação no momento, mas posso ajudar com criação de rotina"
 
 ---
 
@@ -47,7 +52,7 @@
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
+    A[Cliente] -->B["Streamlit (Interface)"]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C
@@ -59,10 +64,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Streamlit |
+| LLM | GPT-4 via API |
+| Base de Conhecimento | JSON/CSV com dados do cliente |
+| Validação | Checagem de alucinações |
 
 ---
 
@@ -70,12 +75,15 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só reajusta de acordo com os dados fornecidos pelo usuário
+- [ ] Respostas incluem fonte da informação
+- [ ] Quando não sabe, admite e redireciona]
+- [ ] Faz recomendações de rotinas de acordo com o perfil do cliente
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- NÂO prejudica a rotina do usuário
+- NÂO extrapola o limite de horas de um dia
+- NÂO desconsidera pequenos espaços de tempo (banho, tempo de chegada, tempo de viagem)
+- NÂO acha que as 24 horas de todo mundo são iguais
