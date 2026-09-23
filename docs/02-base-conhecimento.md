@@ -26,7 +26,8 @@ Os dados foram modificados para explicar como são rotinas mais produtivas, most
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt para o modelo de IA.
+Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt para o modelo de IA. Os dados serão carregados 
+via código Python utilizando bibliotecas como Pandas
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
