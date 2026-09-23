@@ -1,0 +1,25 @@
+{
+  "nome": "Marina Costa",
+  "idade": 29,
+  "profissao": "Designer de Produto",
+  "carga_horaria_semanal": 40,
+  "perfil_rotina": "hibrida",
+  "objetivo_principal": "Criar uma rotina mais equilibrada entre trabalho, saúde e descanso",
+  "horas_sono_media": 6.5,
+  "nivel_energia": "moderado",
+  "aceita_mudancas": true,
+  "metas": [
+    {
+      "meta": "Dormir pelo menos sete horas por noite",
+      "valor_atual": 6.5,
+      "valor_alvo": 7.0,
+      "prazo": "2026-10"
+    },
+    {
+      "meta": "Praticar atividade física três vezes por semana",
+      "valor_atual": 1,
+      "valor_alvo": 3,
+      "prazo": "2026-11"
+    }
+  ]
+}
