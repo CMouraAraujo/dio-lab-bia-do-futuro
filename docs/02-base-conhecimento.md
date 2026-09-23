@@ -41,12 +41,14 @@ Os dados serão utilizados no system prompt do modelo e consultados constantemen
 
 ```
 Dados do Cliente:
-- Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
+- Nome: Marina Costa
+- Idade: 29
+- Carga horaria semanal: 40
+- Objetivo principal: Criar uma rotina mais equilibrada entre trabalho, saúde e descanso
+...
 
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
+Metas:
+- Meta: Dormir pelo menos sete horas por noite
+- Meta: Praticar atividade física três vezes por semana
 ...
 ```
