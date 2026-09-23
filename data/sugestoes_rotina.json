@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "Ritual de encerramento do trabalho",
+    "categoria": "descanso",
+    "intensidade": "baixa",
+    "duracao_sugerida": "15 minutos",
+    "frequencia_minima": "dias úteis",
+    "indicado_para": "Quem tem dificuldade para separar o trabalho do tempo pessoal"
+  },
+  {
+    "nome": "Caminhada curta ao ar livre",
+    "categoria": "atividade_fisica",
+    "intensidade": "baixa",
+    "duracao_sugerida": "20 minutos",
+    "frequencia_minima": "3 vezes por semana",
+    "indicado_para": "Quem busca mais movimento sem reservar longos períodos"
+  },
+  {
+    "nome": "Planejamento semanal de prioridades",
+    "categoria": "organizacao",
+    "intensidade": "baixa",
+    "duracao_sugerida": "30 minutos",
+    "frequencia_minima": "1 vez por semana",
+    "indicado_para": "Quem precisa visualizar compromissos e proteger horários de descanso"
+  },
+  {
+    "nome": "Treino funcional em casa",
+    "categoria": "atividade_fisica",
+    "intensidade": "media",
+    "duracao_sugerida": "20 minutos",
+    "frequencia_minima": "2 vezes por semana",
+    "indicado_para": "Quem dispõe de pouco tempo e prefere treinar em casa"
+  },
+  {
+    "nome": "Desconexão digital noturna",
+    "categoria": "sono",
+    "intensidade": "baixa",
+    "duracao_sugerida": "30 minutos",
+    "frequencia_minima": "todas as noites",
+    "indicado_para": "Quem quer reduzir estímulos antes de dormir e melhorar o sono"
+  }
+]
