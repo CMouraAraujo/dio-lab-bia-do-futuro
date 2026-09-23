@@ -1,0 +1,11 @@
+data,descricao,categoria,valor,tipo
+2026-09-14,Planejamento da semana,organizacao,30,concluida
+2026-09-15,Caminhada no parque,atividade_fisica,35,concluida
+2026-09-15,Trabalho concentrado,trabalho,180,concluida
+2026-09-16,Alongamento da manhã,bem_estar,10,concluida
+2026-09-16,Leitura antes de dormir,descanso,25,concluida
+2026-09-17,Treino em casa,atividade_fisica,20,concluida
+2026-09-18,Pausa para almoço sem telas,bem_estar,40,concluida
+2026-09-19,Caminhada no parque,atividade_fisica,30,nao_realizada
+2026-09-20,Organização de tarefas da semana,organizacao,25,concluida
+2026-09-21,Desconexão digital noturna,sono,30,nao_realizada
