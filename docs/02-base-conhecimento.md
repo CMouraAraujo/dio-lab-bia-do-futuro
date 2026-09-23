@@ -6,13 +6,10 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+| `historico_interacoes.csv` | CSV | Contextualizar interações anteriores |
+| `perfil_rotina.json` | JSON | Perfil de rotinas por recomendações |
+| `sugestoes_rotina.json` | JSON | Sugerir rotinas adequados ao perfil |
+| `registro_atividades.csv` | CSV | Analisar padrão de atividades dos clientes |
 
 ---
 
@@ -20,7 +17,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Os dados foram modificados para explicar como são rotinas mais produtivas, mostrar um histórico interações anteriores, sugerir rotinas e com isso criar uma melhor rotina para o usuário.
 
 ---
 
