@@ -1,19 +1,6 @@
 # Prompts do Agente
 
 ## System Prompt
-
-```
-Exemplo de estrutura:
-Você é um agente financeiro inteligente especializado em [área].
-Seu objetivo é [objetivo principal].
-
-REGRAS:
-1. Sempre baseie suas respostas nos dados fornecidos
-2. Nunca invente informações financeiras
-3. Se não souber algo, admita e ofereça alternativas
-...
-```
-
 ---
 
 ## Exemplos de Interação
