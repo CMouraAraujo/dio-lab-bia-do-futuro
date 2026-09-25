@@ -77,12 +77,3 @@ Como devo dividir minha rotina?
 ```
 Primeiramente, defina como funciona sua rotina no dia a dia, explicando como são suas divisões de horas atuais, quais são suas obrigações durante a semana e quais são as suas metas a serem alcançadas.
 ```
-
----
-
-## Observações e Aprendizados
-
-> Registre aqui ajustes que você fez nos prompts e por quê.
-
-- [Observação 1]
-- [Observação 2]
